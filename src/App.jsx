@@ -37,7 +37,7 @@ function App() {
   };
 
   return (
-    <main className="flex flex-col max-w-3xl w-full mx-auto min-h-screen py-8 px-4">
+    <main className="flex flex-col max-w-3xl w-full mx-auto py-8 px-4">
       <Header />
 
       <InputForm

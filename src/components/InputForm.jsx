@@ -4,7 +4,6 @@ import LoadingSpinner from "./LoadingSpinner";
 function InputForm({ inputRef, isLoading, handleSubmit, handleKeyDown }) {
   const textareaRef = useRef(null);
 
-  // Fungsi untuk auto-resize textarea
   useEffect(() => {
     const textarea = textareaRef.current;
     if (!textarea) return;

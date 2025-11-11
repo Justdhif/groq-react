@@ -5,7 +5,8 @@ function Header() {
         data-testid="web__title"
         className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-600 mb-2"
       >
-        Groq AI Assistant
+        <img src="/assets/logo.png" alt="" className="w-12 inline"/>
+        <span className="text-white">roq</span> AI Assistant
       </h1>
       <p className="text-gray-400">Get instant AI-powered responses</p>
     </div>
